@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/PIS_Spring
+    username: postgres
+    password: root
+  jpa:
+    database: POSTGRESQL
+    databasePlatform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  mvc:
+    format:
+      date: yyyy-MM-dd
+jwt:
+  broker:
+    private-key: 4428472B4B6250655367566B5970337336763979244226452948404D63516654
